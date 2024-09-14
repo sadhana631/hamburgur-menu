@@ -1,4 +1,4 @@
-import Popup from 'react-js-popup'
+import Popup from 'reactjs-popup'
 import {withRouter, Link} from 'react-router-dom'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {IoMdClose} from 'react-icons/io'
@@ -42,13 +42,13 @@ const Header = () => (
             </button>
             <ul className="nav-links-list">
               <li className="nav-link-item">
-                <Link className="nav-link" to="/" onClick={() => close()}
+                <Link className="nav-link" to="/" onClick={() => close()}>
                   <AiFillHome size="36" />
                   <p className="nav-link-content">Home</p>
                 </Link>  
               </li>
               <li className="nav-link-item">
-                <Link className="nav-link" to="/about" onClick={() => close()}
+                <Link className="nav-link" to="/about" onClick={() => close()}>
                   <BsInfoCircleFill size="32"/>
                   <p className="nav-link-content">About</p>
                 </Link>  

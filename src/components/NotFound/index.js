@@ -16,7 +16,7 @@ const NotFound = () => (
         <p className="description">
           Sorry, we cannot find that page. You will find bts to explore on the
           home page
-        </p>  
+        </p>
       </div>
     </div>
   </div>

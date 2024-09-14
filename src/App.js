@@ -1,3 +1,9 @@
+import {Route, Switch, Redirect} from 'react-router-dom'
+
+import Home from './components/Home'
+import About from './components/About'
+import NotFound from './components/NotFound'
+
 import './App.css'
 
 const App = () => (
@@ -6,6 +12,7 @@ const App = () => (
     <Route exact path="/about" component={About} />
     <Route exact path="/not-found" component={NotFound} />
     <Redirect to="not-found" />
-  </Switch>  
-)  
+  </Switch>
+)
+
 export default App
