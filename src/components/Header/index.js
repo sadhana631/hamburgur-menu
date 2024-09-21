@@ -15,7 +15,7 @@ const Header = () => (
           className="website-logo"
           src="https://assets.ccbp.in/frontend/react-js/hamburger-menu-website-logo.png"
           alt="website logo"
-        />  
+        />
       </Link>
       <Popup
         modal
@@ -45,20 +45,20 @@ const Header = () => (
                 <Link className="nav-link" to="/" onClick={() => close()}>
                   <AiFillHome size="36" />
                   <p className="nav-link-content">Home</p>
-                </Link>  
+                </Link>
               </li>
               <li className="nav-link-item">
                 <Link className="nav-link" to="/about" onClick={() => close()}>
-                  <BsInfoCircleFill size="32"/>
+                  <BsInfoCircleFill size="32" />
                   <p className="nav-link-content">About</p>
-                </Link>  
+                </Link>
               </li>
-            </ul>    
-          </div>  
-        )}      
-      </Popup>    
+            </ul>
+          </div>
+        )}
+      </Popup>
     </div>
-  </div>  
+  </div>
 )
 
 export default withRouter(Header)
